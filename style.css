@@ -159,7 +159,7 @@ nav a:hover {
 
 .reader-section {
   background: #e9eee8;
-  padding: 68px 0 72px;
+  padding: 38px 0 34px;
 }
 
 .reader-inner {
@@ -312,8 +312,11 @@ footer p {
   padding: 42px 0;
 }
 
+/* Bottom reader message */
 .reader-message {
-  font-size: 26px;
+  font-size: 25px;
+  font-weight: 400;
   line-height: 1.25;
-  margin: 12px auto 22px;
+  margin: 14px 0 24px;
+  white-space: nowrap;
 }
