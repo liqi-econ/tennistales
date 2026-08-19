@@ -335,9 +335,9 @@ footer p {
 
 .about-intro h1 {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 54px;
+  font-size: 36px;
   font-weight: 400;
-  line-height: 1.1;
+  line-height: 1.2;
   margin: 18px 0 28px;
 }
 
@@ -398,4 +398,8 @@ footer p {
     padding: 35px 0;
   }
 
+}
+.about-story-link {
+  display: inline-block;
+  margin-top: 18px;
 }
