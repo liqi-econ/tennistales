@@ -320,3 +320,82 @@ footer p {
   margin: 12px 0 20px;
   white-space: nowrap;
 }
+
+/* ========================================
+   ABOUT PAGE
+======================================== */
+
+.about-intro {
+  padding: 90px 0 55px;
+}
+
+.about-container {
+  max-width: 960px;
+}
+
+.about-intro h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 18px 0 28px;
+}
+
+.about-lead {
+  max-width: 700px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 24px;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.about-section {
+  padding: 25px 0 80px;
+}
+
+.about-block {
+  max-width: 720px;
+  padding: 45px 0;
+  border-top: 1px solid #d8d8d2;
+}
+
+.about-block h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 12px 0 22px;
+}
+
+.about-block p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+.about-block .story-link {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+  .about-intro {
+    padding: 60px 0 35px;
+  }
+
+  .about-intro h1 {
+    font-size: 40px;
+  }
+
+  .about-lead {
+    font-size: 20px;
+  }
+
+  .about-block {
+    padding: 35px 0;
+  }
+
+}
