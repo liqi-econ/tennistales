@@ -306,3 +306,14 @@ footer p {
     font-size: 42px;
   }
 }
+/* Bottom reader/contact section */
+
+.reader-section {
+  padding: 42px 0;
+}
+
+.reader-message {
+  font-size: 26px;
+  line-height: 1.25;
+  margin: 12px auto 22px;
+}
