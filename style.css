@@ -411,3 +411,20 @@ footer p {
 .about-page {
   padding-top: 45px;
 }
+
+/* =========================
+   ABOUT PAGE OVERRIDES
+   ========================= */
+
+/* Reduce space between navigation banner and About content */
+.about-page main {
+  padding-top: 35px !important;
+}
+
+/* Make About Tennis Tales smaller */
+.about-page .about-title {
+  font-size: 30px !important;
+  line-height: 1.15;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
