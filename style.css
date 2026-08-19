@@ -407,3 +407,7 @@ footer p {
 .about-page {
   padding-top: 40px;
 }
+/* Reduce space below header on About page */
+.about-page {
+  padding-top: 45px;
+}
