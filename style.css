@@ -403,3 +403,7 @@ footer p {
   display: inline-block;
   margin-top: 18px;
 }
+/* Reduce space below header on About page */
+.about-page {
+  padding-top: 50px;
+}
