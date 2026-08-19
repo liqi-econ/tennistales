@@ -420,3 +420,19 @@ footer p {
   margin-top: 0;
   margin-bottom: 24px;
 }
+/* FIX blank space above About page header */
+html,
+body.about-page {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.about-page .site-header {
+  margin: 0 !important;
+  top: 0 !important;
+}
+
+.about-page main {
+  margin-top: 0 !important;
+  padding-top: 35px !important;
+}
