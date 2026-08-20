@@ -430,7 +430,8 @@ footer p {
 }
 
 .essays-container {
-  max-width: 960px;
+    width: min(960px, calc(100% - 48px));
+    margin: 0 auto;
 }
 
 .essays-intro h1 {
@@ -457,10 +458,6 @@ footer p {
   padding: 0 0 55px;
 }
 
-.essay-list .essays-container {
-  max-width: 960px;
-  margin: 0 auto;
-}
 
 .essay-entry {
   max-width: 760px;
