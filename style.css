@@ -529,3 +529,85 @@ footer p {
     width: min(960px, calc(100% - 48px));
     margin: 0 auto;
 }
+/* =========================================
+   CONTACT PAGE
+   ========================================= */
+
+.contact-main {
+  padding: 60px 0 90px;
+}
+
+.contact-container {
+  width: min(960px, calc(100% - 48px));
+  margin: 0 auto;
+}
+
+.contact-main h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 12px 0 18px;
+}
+
+.contact-lead {
+  max-width: 700px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 21px;
+  line-height: 1.5;
+  font-style: italic;
+  margin: 0;
+}
+
+.contact-details {
+  margin-top: 55px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  max-width: 760px;
+}
+
+.contact-label {
+  margin: 0 0 12px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.contact-email {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 22px;
+}
+
+.contact-email a {
+  text-decoration: none;
+}
+
+.contact-email a:hover {
+  text-decoration: underline;
+}
+
+.academic-note {
+  max-width: 700px;
+  margin-top: 50px;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.academic-note a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.contact-footer {
+  background: #e9eee8;
+  padding: 35px 0;
+  text-align: center;
+}
+
+.contact-footer p {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+}
