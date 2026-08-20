@@ -421,3 +421,113 @@ footer p {
   margin-bottom: 24px;
 }
 
+/* =========================
+   ESSAYS & STORIES PAGE
+   ========================= */
+
+.essays-intro {
+  padding: 50px 0 38px;
+}
+
+.essays-container {
+  max-width: 960px;
+}
+
+.essays-intro h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 12px 0 18px;
+}
+
+.essays-lead {
+  max-width: 700px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 21px;
+  line-height: 1.5;
+  font-style: italic;
+  margin: 0;
+}
+
+
+/* Essay entries */
+
+.essay-list {
+  padding: 0 0 55px;
+}
+
+.essay-entry {
+  max-width: 760px;
+  padding: 30px 0 34px;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.essay-category {
+  margin: 0 0 10px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.essay-entry h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 1.25;
+  margin: 0 0 12px;
+}
+
+.essay-description {
+  max-width: 680px;
+  margin: 0 0 12px;
+  line-height: 1.65;
+}
+
+.essay-availability {
+  margin: 0;
+  font-size: 13px;
+  font-style: italic;
+  opacity: 0.65;
+}
+
+
+/* Bottom contact section */
+
+.essays-contact {
+  background: #e9eee8;
+  padding: 42px 0;
+  text-align: center;
+}
+
+.essays-contact > .container {
+  max-width: 960px;
+}
+
+.essays-contact p:not(.eyebrow) {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  margin: 8px 0 18px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .essays-intro {
+    padding: 35px 0 28px;
+  }
+
+  .essays-intro h1 {
+    font-size: 30px;
+  }
+
+  .essays-lead {
+    font-size: 18px;
+  }
+
+  .essay-entry h2 {
+    font-size: 24px;
+  }
+}
