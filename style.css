@@ -457,6 +457,11 @@ footer p {
   padding: 0 0 55px;
 }
 
+.essay-list .essays-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .essay-entry {
   max-width: 760px;
   padding: 30px 0 34px;
