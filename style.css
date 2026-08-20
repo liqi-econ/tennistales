@@ -425,10 +425,6 @@ footer p {
    ESSAYS & STORIES PAGE
    ========================= */
 
-.essays-intro {
-  padding: 50px 0 38px;
-}
-
 .essays-container {
     width: min(960px, calc(100% - 48px));
     margin: 0 auto;
